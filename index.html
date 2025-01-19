@@ -1,516 +1,122 @@
 <!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta name="author" content="Rita Faria">
+<html>
+<head>
+<meta charset="UTF-8">
 <title>Rita Faria</title>
-	
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css-final.css" rel="stylesheet" type="text/css">
-<link rel="icon" href="imagens/0.png">
-	
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-	
-
-<!-- Slideshow-->	
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	
-<!-- Nav Animation -->	
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+<link rel="stylesheet" href="style.css">	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
 	
 </head>
 
 <body>
-
 	
-	<div class="topnav" id="myTopnav">
-  <a class="underline active" href="">RITA FARIA</a>
-  <a class="underline" href="#photography">PHOTOGRAPHY</a>
-  <a class="underline" href="#video">VIDEO EDITING</a> 
-  <a class="underline" href="#design">DESIGN &amp; ILLUSTRATION</a>
-  <a class="underline" href="#about">ABOUT</a>
-  <!-- <a class="underline" href="#contact">CONTACT</a> -->
-	</div>
-
+	<nav>
+		<a href="mailto:ritaccfaria@hotmail.com" target="_blank">contact</a>
+		<a href="https://www.behance.net/rita-faria" target="_blank">behance</a>
+		<a href="https://www.youtube.com/@exactablerita9" target="_blank">youtube</a>
+		<a href="ritafaria_cv2025.pdf" target="_blank">cv</a>
+	</nav>
+	 
+	<header>
+		<p>Hello :) <br>I’m Rita Faria, a video editor<br> based in Porto, Portugal.</p>	
+	</header>
 	
-<div class="button_container" id="toggle">
-  <span class="top"></span>
-  <span class="middle"></span>
-  <span class="bottom"></span>
-</div>
-
-<div class="overlay" id="overlay">
-  <nav class="overlay-menu">
-    <ul id="close">
-      <li><a href="#photography" class="underline">PHOTOGRAPHY</a></li>
-      <li><a href="#video" class="underline">VIDEO EDITING</a> </li>
-      <li><a href="#design" class="underline">DESIGN &amp; ILLUSTRATION</a></li>
-      <li><a href="#about" class="underline">ABOUT</a></li>
-      <!-- <li><a href="#contact" class="underline">CONTACT</a></li> -->
-    </ul>
-  </nav>
-</div>
+	<section>
 	
-	
-	
-	
-	
-<section class="photography">
-	
-<div id="photography" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#photography" data-slide-to="0" class="active"></li>
-    <li data-target="#photography" data-slide-to="1"></li>
-    <li data-target="#photography" data-slide-to="2"></li>
-	<li data-target="#photography" data-slide-to="3"></li>
-	<li data-target="#photography" data-slide-to="4"></li>  
-	<li data-target="#photography" data-slide-to="5"></li>
-  </ul>
-  
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="imagens/1.jpg" alt="Analog photo of a garage entrance at night.">
-    </div>
-    <div class="carousel-item">
-      <img src="imagens/2.jpg" alt="Analog photo of the inside of warehouse through a fence at night.">
-    </div>
-    <div class="carousel-item">
-      <img src="imagens/3.jpg" alt="Analog photo of the entrance of a tunnel at night.">
-    </div>
-	<div class="carousel-item">
-      <img src="imagens/4.jpg" alt="Analog photo of a closed store at night.">
-    </div>  
-	<div class="carousel-item">
-      <img src="imagens/5.jpg" alt="Analog photo of a parking garage entrance at night.">
-    </div> 
-	<div class="carousel-item">
-      <img src="imagens/6.jpg" alt="Analog photo of an art installation with neon lights at night.">
-    </div>   
-  </div>
-  
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#photography" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#photography" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-	</div>
-	
-</section>
-		
-	
-	
-	
-<section class="video" id="video">
-		
-		<div class="videogroup scroll-element js-scroll fade-in-bottom">
-			
-			
-			<div class="column">
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="a decade in film: 2010s" src="https://www.youtube.com/embed/zowLGxT9l8k" allowfullscreen></iframe>
+	<div class="row">
+ 		 <div class="column picture" id="videoDiv">
+			 <video id="video1" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/test-video.mp4" type="video/mp4">
+			</video>
+			 
+			 <video id="video1-real" preload="" playsinline="" src="videos/substance.mp4" type="video/mp4" controls style="display: none; object-fit: contain">
+			</video>
+			 
+			<div class="caption">
+      			<h2>Picture Break</h2>
+            </div>
+			 <div class="tag-container">
+				<div class="tag">
+					<p>Short Film</p>
+				</div>
+				 <div class="tag">
+					<a href="https://www.instagram.com/pedronogueira.97/" target="_blank"><p>Director: Pedro Nogueira</p></a>
+				</div> 
+				 
 			</div>
-			
-			<div class="info">
-				<h2>a decade in film: 2010s (2019)</h2>
-				<p><span>personal project</span></p>
-				<p>Retrospective of what are considered to be some of the best and most influencial films from the past decade (and some personal favorites).</p>				
+			 
+ 		 </div>
+ 		 <div class="column 2024" id="videoDiv">
+   			<video id="video2" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/test-video.mp4" type="video/mp4">
+			</video>
+			 
+			 <!--<video id="video2-real" preload="" playsinline="" src="2024 in film.mp4" type="video/mp4" controls style="display: none; object-fit: contain">
+			</video>-->
+			 
+			 <iframe id="video2-real" src="https://www.youtube.com/embed/8jIdSEORUDs?si=Yit3JEJXBDn7N6Z5&autoplay=1&rel=0" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: none; object-fit: contain"></iframe>
+			 
+			<div class="caption">
+      			<h2>2024 in film: there is still time</h2>
+            </div>
+			 <div class="tag-container">
+				<div class="tag">
+					<p>Personal Work</p>
+				</div>			 
 			</div>
-			</div>
-			
-			
-			<div class="column">
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="coming of age: a supercut of us" src="https://www.youtube.com/embed/wmwpNigawz0" allowfullscreen></iframe>
-			</div>
-			
-			<div class="info">
-				<h2>coming of age: a supercut of us (2020)</h2>
-				<p><span>personal project</span></p>
-				<p>Reflection on the coming-of-age genre and how the transition from childhood to adulthood has been portrayed on film.</p>
-			</div>
-			</div>
-			
-			
-			<div class="column">
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="lgbt cinema" src="https://www.youtube.com/embed/PNliA76IzHU" allowfullscreen></iframe>
-			</div>
-			
-			<div class="info">
-				<h2>lgbt cinema (2020)</h2>	
-				<p><span>personal project</span></p>
-				<p>A portrayal of love, yearning and intimacy in LGBT+ relationships told through film. </p>
-			</div>
-			</div>
-			
-			
-			<div class="column">
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="mothers in film" src="https://www.youtube.com/embed/FbBF057z0XQ" allowfullscreen></iframe>
-			</div>
-			
-			<div class="info">
-				<h2>mothers in film (2021)</h2>	
-				<p><span>personal project</span></p>
-				<p>A love letter to my mother and a reflection on how the complexity of motherhood is portrayed on film. </p>
-				
-			</div>
-			</div>	
-			
-		</div>
-	
-		<div class="second videogroup scroll-element js-scroll fade-in-bottom">
-			
-			
-			<div class="column">
-			<div class=" column embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="color in film" src="https://www.youtube.com/embed/HtcIBtPcNPA" allowfullscreen></iframe>
-			</div>
-				
-			<div class="info">
-				<h2>color in film (2017)</h2>	
-				<p><span>personal project</span></p>
-				<p>Color studies through a collection of short videos originally made for my Instagram page.</p>
-			</div>
-			</div>	
-			
-			<div class="column">	
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="factory" src="https://www.youtube.com/embed/MnWaxxy6nlY" allowfullscreen></iframe>
-			</div>
-				
-			<div class="info">
-				<h2>factory (2020)</h2>	
-				<p><span>class project</span></p>
-				<p>Short animation following a mysterious object through an assembly line and the funky machines that interact with it along the way.
-				Made in collaboration with <strong>Elisa Sampaio</strong>, <strong>José Souto</strong> and <strong>Maria Sousa</strong>.</p>
-			</div>	
-			</div>
-			
-			
-			<div class="column">
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="quarantine diaries" src="https://www.youtube.com/embed/AbUs-1K1nX4" allowfullscreen></iframe>
-			</div>
-				
-			<div class="info">
-				<h2>quarantine diaries (2021)</h2>
-				<p><span>class project</span></p>
-				<p>Made with online footage and narrated by my brother and his girlfriend, this project illustrates the story of how they moved in together amid the COVID-19 pandemic and how their relationship has developed because of it.</p>
-			</div>	
-			</div>
-			
-			
-			
-			<div class="column">
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" title="realism / emotion" src="https://www.youtube.com/embed/1bNoLiqTgUE" allowfullscreen></iframe>
-			</div>
-				
-				<div class="info">
-				<h2>realism / emotion (2021)</h2>	
-				<p><span>class project</span></p>
-				<p>Sound design of a scene from the movie “La délicatesse” taken out of context and using sounds available online. The first version is meant to be as realistic as possible, while the second one is meant to evoke more emotion.</p>
-			</div>		
-			</div>
-		
-			
-		</div>
-	
-</section>
-	
-
-	
-<section class="design" id="design">
-	
-	<div class="gradient scroll-element js-scroll fade-in-bottom">
-		 <img src="imagens/13.1.jpg" alt="A poster, a ticket, a booklet and a cassette tape in the style of Peter Saville to promote an exhibition.">
-		 <a href="https://www.behance.net/gallery/132525465/Peter-Saville-The-Art-of-the-Record-Cover" target="_blank"><h2> Peter Saville: The Art of the Record Cover (2020)</h2></a>
+ 		 </div>
 	</div>
 		
-	<div class="gradient scroll-element js-scroll fade-in-bottom">
-		 <img src="imagens/13.jpg" alt="A poster, a ticket, a booklet and a cassette tape in the style of Peter Saville to promote an exhibition.">
-		 <a href="https://www.behance.net/gallery/132525465/Peter-Saville-The-Art-of-the-Record-Cover" target="_blank"><h2> Peter Saville: The Art of the Record Cover (2020)</h2></a>
-	</div>
-	
-	
-	<div class="books scroll-element js-scroll fade-in-bottom">
-		
-	<figure class="gradient">	
-		<img class="mySlides2" src="imagens/14.jpg" alt="Concept book for Costa Nova.">
-  		<img class="mySlides2" src="imagens/15.jpg" alt="Spread of the book with text and old postcards of Costa Nova.">
-  		<img class="mySlides2" src="imagens/16.jpg" alt="Spread of the book with text and a photo of the typical colorful houses in Costa Nova.">
-		<img class="mySlides2" src="imagens/17.jpg" alt="Spread of the book with text and a photo of the typical colorful houses in Costa Nova.">
-  		<img class="mySlides2" src="imagens/18.jpg" alt="Spread of the book with text and a photo of the typical colorful houses in Costa Nova.">
-		<a href="https://www.behance.net/gallery/132528649/Costa-Nova-Concept-Book" target="_blank"><h2> Costa Nova – Concept Book (2021)</h2></a>
-	</figure>
-		
-		<figure class="gradient">	
-		<img class="mySlides3" src="imagens/19.jpg" alt="Book with green cover titled 'Color In Film: Green Edition'.">
-  		<img class="mySlides3" src="imagens/20.jpg" alt="Spread of the book with a frame from the movie 'Across the Universe' and its color palette.">
-  		<img class="mySlides3" src="imagens/21.jpg" alt="Spread of the book with a frame from the movie 'Spirited Away' and its color palette.">
-		<img class="mySlides3" src="imagens/22.jpg" alt="Spread of the book with a frame from the movie 'Three Billboards Outside Ebbing, Missouri' and its color palette.">
-		<img class="mySlides3" src="imagens/23.jpg" alt="Spread of the book with a frame from the movie 'The Shining' and its color palette.">
-		<a href="https://www.behance.net/gallery/132529129/Color-in-Film-Green-Edition" target="_blank"><h2> Color In Film: Green Edition (2019)</h2></a>
-	</figure>
-		
+	<div class="row" data-aos="fade-up">
+ 		 <div class="column" style="background-color:#aaa;">
+  		  	<h2>Column 1</h2>
+ 		 </div>
+ 		 <div class="column" style="background-color:#bbb;">
+   			 <h2>Column 2</h2>
+ 		 </div>
 	</div>	
-		
-	<div class="poster scroll-element js-scroll fade-in-bottom">	
-		
-		<figure class="gradient">
-		<img src="imagens/24.jpg" alt="Colorful illustrated poster for the movie 'The Florida Project' that imitates children's drawings and calligraphy.">
-		<a href="https://www.behance.net/gallery/132531565/The-Florida-Project-Poster" target="_blank"><h2> "The Florida Project" Poster (2019)</h2></a>		
-		</figure>
-		
-		<figure class="gradient">
-		<img src="imagens/25.png" alt="Black and white illustrated poster for the movie 'La Grande Bellezza'.">
-		<a href="https://www.behance.net/gallery/132530895/La-Grande-Bellezza-Poster" target="_blank"><h2> "La Grande Bellezza" Poster for Cineclube do Porto (2020)</h2></a>
-		</figure>
-		
-		<figure class="gradient">
-			<img class="mySlides4" src="imagens/26.jpg" alt="Cover of a fanzine printed on pink paper titled 'End of the Semester Mixtape' with an illustration of a cassette player.">
-			<img class="mySlides4" src="imagens/27.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'Pretending' by Orla Gartland. The lyrics are written on a piece of graph paper and the illustration is an old desktop computer with a YouTube make-up tutorial playing.">
-			<img class="mySlides4" src="imagens/28.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'Ketchum, ID' by boygenius. The lyrics are cut from books and pasted on top of tourist maps and the illustration is a payphone with the phone hanging.">
-			<img class="mySlides4" src="imagens/29.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'Birthday Song' by The Greeting Committee. The lyrics are written on burned paper and the illustration is a birthday cake falling apart.">
-			<img class="mySlides4" src="imagens/30.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'The Bug Collector' by Haley Heynderickx. The lyrics are written on a picture of trees and the illustration is a praying mantis trapped in a jam jar.">
-			<img class="mySlides4" src="imagens/31.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'Moon Song' by Phoebe Bridgers. The lyrics are accompanied by a vintage picture of an eclipse and the illustration is a sitting dog with a bird in its mouth.">
-			<img class="mySlides4" src="imagens/32.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'Godspeed' by Frank Ocean. The lyrics are written on a paper napkin and the illustration is a set table and two chairs.">
-			<img class="mySlides4" src="imagens/33.jpg" alt="Spread of the fanzine with lyrics and an illustration of the song 'As Luck Would Have It' by Tom Rosenthal. The lyrics are written on top of an ink blot and the illustration is a magic 8-ball that says 'It is decidedly so'.">
-			<img class="mySlides4" src="imagens/34.jpg" alt="Back cover of the fanzine with an illustration of earphones as a continuation of the front cover.">
-			<img class="mySlides4" src="imagens/35.jpg" alt="Front and back cover together.">
-		<a href="https://www.behance.net/gallery/132530141/End-of-the-Semester-Mixtape" target="_blank"><h2> End of the <span>World</span> Semester Mixtape (2021)</h2></a>
-		</figure>
-	
-	</div>
-		
-	
-</section>
+		<div class="row" data-aos="fade-up">
+ 		 <div class="column" style="background-color:#aaa;">
+  		  	<h2>Column 1</h2>
+ 		 </div>
+ 		 <div class="column" style="background-color:#bbb;">
+   			 <h2>Column 2</h2>
+ 		 </div>
+	</div>	
+		<div class="row" data-aos="fade-up">
+ 		 <div class="column" style="background-color:#aaa;">
+  		  	<h2>Column 1</h2>
+ 		 </div>
+ 		 <div class="column" style="background-color:#bbb;">
+   			 <h2>Column 2</h2>
+ 		 </div>
+	</div>	
+		<div class="row" data-aos="fade-up">
+ 		 <div class="column" style="background-color:#aaa;">
+  		  	<h2>Column 1</h2>
+ 		 </div>
+ 		 <div class="column" style="background-color:#bbb;">
+   			 <h2>Column 2</h2>
+ 		 </div>
+	</div>	
 	
 	
+	</section>
 	
+	<footer>
+		<p>2025 © Rita Faria</p>
+	</footer>
 	
-<section class="about" id="about">
+	<script src="jquery-3.7.1.min.js"></script>
+	<script src="script.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+  			AOS.init();
+		</script>
 	
-	<div class="me">
-		<img src="imagens/36.jpg" alt="Analog photo of Rita Faria in front of a colorful wall.">
-		<img src="imagens/36.1.png" alt="Analog photo of Rita Faria in front of a colorful wall.">
-	</div>
-	<div class="hide"><img src="imagens/40.png" alt="Illustrated white stars."></div>
-	<div>
-		<h1>About</h1>
-		<p>	Rita Faria is currently studying Communication Design at the Faculty of Fine Arts of the University of Porto (FBAUP).</p>
-		<p>	She has lived in Gaia and Porto her whole life, but if you ask her for directions she will not be able to help you at all.</p>
-		<p>	She's passionate about movies and music, and has recently discovered her love for film photography.</p>
-		<p>	She knows her way around Premiere Pro, Photoshop, Illustrator and InDesign. She's very open to learn After Effects, Audition, DaVinci Resolve and others.</p>
-		<p>	You might be wondering why she’s talking about herself in the third person... </p> 
-		<p> She doesn’t know either. She is <span>very</span> sleep deprived.</p>	
-	
-		<!--<span class="links" id="contact">
-		<a href="https://www.instagram.com/exactablerita/" target="_blank">
-			<img src="imagens/37.png" alt="White Instagram icon.">
-		</a>
-		
-		<a href="https://www.youtube.com/user/exactablerita9/" target="_blank">
-			<img src="imagens/38.png" alt="White YouTube icon.">
-		</a>
-		
-		<a href="mailto:ritaccfaria@hotmail.com" target="_blank">
-			<img src="imagens/39.png" alt="White mail icon.">
-		</a>
-		</span>-->
-		
-		<ul>
-			<a href="https://www.behance.net/ritafaria9" target="_blank"><li>behance</li></a>
-			<a href="https://www.youtube.com/user/exactablerita9/" target="_blank"><li>youtube</li></a>
-			<a href="https://www.instagram.com/exactablerita/" target="_blank"><li>instagram</li></a>
-			<a href="mailto:ritaccfaria@hotmail.com" target="_blank"><li>email</li></a>
-		</ul>
-	</div>		
-	
-</section>
-	
-	
-	
-	
-	
-	<!-- Nav animation -->
-	<script>
-	$('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#overlay').toggleClass('open');
-  });
-		
-	$('#close').click(function() {
-	$('#toggle.button_container.active').toggleClass('active', false);
-    $('#overlay.open').toggleClass('open', false);
-  });
-	</script>
-	
-	
-	<!-- Automatic slideshow1 -->
-	<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 5000); // Change image every 5 seconds
-}
-</script>
-	
-	<!-- Automatic slideshow2 -->
-	<script>
-var myIndex2 = 0;
-carousel2();
-
-function carousel2() {
-  var i;
-  var x = document.getElementsByClassName("mySlides2");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex2++;
-  if (myIndex2 > x.length) {myIndex2 = 1}    
-  x[myIndex2-1].style.display = "block";  
-  setTimeout(carousel2, 5000); // Change image every 5 seconds
-}
-</script>
-	
-	<!-- Automatic slideshow3 -->
-	<script>
-var myIndex3 = 0;
-carousel3();
-
-function carousel3() {
-  var i;
-  var x = document.getElementsByClassName("mySlides3");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex3++;
-  if (myIndex3 > x.length) {myIndex3 = 1}    
-  x[myIndex3-1].style.display = "block";  
-  setTimeout(carousel3, 5000); // Change image every 5 seconds
-}
-</script>
-	
-	<!-- Automatic slideshow4 -->
-	<script>
-var myIndex4 = 0;
-carousel4();
-
-function carousel4() {
-  var i;
-  var x = document.getElementsByClassName("mySlides4");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex4++;
-  if (myIndex4 > x.length) {myIndex4 = 1}    
-  x[myIndex4-1].style.display = "block";  
-  setTimeout(carousel4, 5000); // Change image every 5 seconds
-}
-</script>
-	
-
-	
-	
-<!-- Scroll slide-in animation -->
-	<script>
-		const scrollElements = document.querySelectorAll(".js-scroll");
-
-const elementInView = (el, dividend = 1) => {
-  const elementTop = el.getBoundingClientRect().top;
-
-  return (
-    elementTop <=
-    (window.innerHeight || document.documentElement.clientHeight) / dividend
-  );
-};
-
-const elementOutofView = (el) => {
-  const elementTop = el.getBoundingClientRect().top;
-
-  return (
-    elementTop > (window.innerHeight || document.documentElement.clientHeight)
-  );
-};
-
-const displayScrollElement = (element) => {
-  element.classList.add("scrolled");
-};
-
-const hideScrollElement = (element) => {
-  element.classList.remove("scrolled");
-};
-
-const handleScrollAnimation = () => {
-  scrollElements.forEach((el) => {
-    if (elementInView(el, 1.25)) {
-      displayScrollElement(el);
-    } else if (elementOutofView(el)) {
-      hideScrollElement(el)
-    }
-  })
-}
-
-window.addEventListener("scroll", () => { 
-  handleScrollAnimation();
-});
-	</script>
-	
-	
-	
-	<!-- Smooth scroll -->
-<script>
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 800);
-});
-</script>
-		
-	
-<!-- Add background color to navbar on scroll -->
-	<script>
-	$(document).ready(function(){       
-        var scroll_pos = 0;
-        $(document).scroll(function() { 
-            scroll_pos = $(this).scrollTop();
-            if(scroll_pos > 100) {
-				$('.topnav').css('background-color', '#000');
-            } else {
-				$('.topnav').css('background-color', '#FF000000');
-            }
-        });
-    });
-	</script>
-	
-	
-	
-	
+	<script src="https://www.youtube.com/iframe_api"></script>
 	
 </body>
 </html>
-

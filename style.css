@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+
+video::-webkit-media-controls-fullscreen-button {
+	display: none;
+}
+video::-webkit-media-controls-toggle-closed-captions-button {
+	display: none;
+}
+
+video::-webkit-media-controls-picture-in-picture-button {
+	display: none;
+}
+
+/*
+body {
+	background-image: url("bg.png");
+	background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: cover;
+}*/
+
+
+nav {
+	position: fixed;
+	top: 2%;
+    right: 1.5%;
+	z-index: 1;	
+}
+
+nav a {
+	font-family: "Archivo", serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 1.8vw;
+	color: black;
+	padding-left: 1.5vw;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+header {
+	position: absolute;
+    left: 1.5%;
+	font-family: "Archivo", serif;
+	font-weight: 500;
+	font-size: 2.6vw;
+	padding-top: 12%;
+}
+
+section {
+	padding-top: 30%;
+}
+
+.row {
+  display: flex;
+  padding: 0% 1% 0.5%;
+  column-gap: 0.5%;
+}
+
+.column {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+}
+
+.column h2 {
+	font-family: "Archivo", serif;
+	font-weight: 400;
+	padding-left: 2%;
+}
+
+.column video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.column iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+
+.column .caption {
+  z-index: 1;
+  position: relative;
+  color: white;
+  font-size: 1vw;
+}
+
+.column .tag {
+  z-index: 1;
+  color: white;	
+  font-family: "Archivo", serif;
+  font-weight: 300;
+  line-height: 0.7vh;
+  display: inline-block;
+  background-color: rgb(255 255 255 / 30%);
+  backdrop-filter: blur(50px);
+  border-radius: .25rem;
+  font-size: 0.9vw;	
+	padding: 0 1%;
+}
+
+.tag-container {
+	position: absolute;
+	bottom: 2vh;
+    left: 1vw;
+	display: flex;
+	column-gap: 1%;
+    width: 100%;
+}
+
+.tag a {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	font-family: "Archivo", serif;
+    font-weight: 300;
+	font-size: 0.9vw;
+	position: absolute;
+	right: 1.5%;
+	padding: 1vh 0;
+}
