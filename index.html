@@ -9,11 +9,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	
+	<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 	
 </head>
 
 <body>
-	
+
+	<svg class="circle" xmlns="http://www.w3.org/2000/svg">
+  <circle id="circle" r="10" cx="10" cy="10" fill="white" />
+</svg>
+
 	<nav>
 		<a href="mailto:ritaccfaria@hotmail.com" target="_blank">contact</a>
 		<a href="https://www.behance.net/rita-faria" target="_blank">behance</a>
@@ -27,40 +32,53 @@
 	
 	<section>
 	
-	<div class="row">
- 		 <div class="column picture" id="videoDiv">
-			 <video id="video1" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/test-video.mp4" type="video/mp4">
-			</video>
+		<div class="row">
+ 		 <div class="column">
 			 
-			 <video id="video1-real" preload="" playsinline="" src="videos/substance.mp4" type="video/mp4" controls style="display: none; object-fit: contain">
-			</video>
+			 <div class="picture">
+				  <div class="laurels">
+			 	<img src="images/laurel1.png">
+					  <img src="images/laurel2.png">
+				
+		    </div>	
+				 <video id="video1" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/picture_break.mp4" type="video/mp4">
+				</video>
+
+				  <div class="plyr__video-embed" id="video1-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/1050185399?h=eeaeff5d79&amp;loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+
+				<div class="caption">
+					<h2>Picture Break</h2>
+				</div>
+				 
+			</div>
 			 
-			<div class="caption">
-      			<h2>Picture Break</h2>
-            </div>
 			 <div class="tag-container">
 				<div class="tag">
 					<p>Short Film</p>
 				</div>
 				 <div class="tag">
-					<a href="https://www.instagram.com/pedronogueira.97/" target="_blank"><p>Director: Pedro Nogueira</p></a>
+					<a href="https://www.instagram.com/myst_films/" target="_blank"><p>Production: Myst Films</p></a>
 				</div> 
-				 
 			</div>
 			 
+			 
  		 </div>
- 		 <div class="column 2024" id="videoDiv">
-   			<video id="video2" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/test-video.mp4" type="video/mp4">
-			</video>
+		
+ 		 <div class="column">
 			 
-			 <!--<video id="video2-real" preload="" playsinline="" src="2024 in film.mp4" type="video/mp4" controls style="display: none; object-fit: contain">
-			</video>-->
-			 
-			 <iframe id="video2-real" src="https://www.youtube.com/embed/8jIdSEORUDs?si=Yit3JEJXBDn7N6Z5&autoplay=1&rel=0" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: none; object-fit: contain"></iframe>
-			 
-			<div class="caption">
-      			<h2>2024 in film: there is still time</h2>
-            </div>
+			 <div class="2024">
+				<video id="video2" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/2024 in film.mp4" type="video/mp4">
+				</video>
+
+				 <iframe id="video2-real" src="https://www.youtube.com/embed/8jIdSEORUDs?si=Yit3JEJXBDn7N6Z5&rel=0" frameborder="0" allow="autoplay" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: none; object-fit: contain"></iframe>
+
+				<div class="caption">
+					<h2>2024 in film: there is still time</h2>
+				</div>
+			</div>	 
+				 
 			 <div class="tag-container">
 				<div class="tag">
 					<p>Personal Work</p>
@@ -69,41 +87,298 @@
  		 </div>
 	</div>
 		
-	<div class="row" data-aos="fade-up">
- 		 <div class="column" style="background-color:#aaa;">
-  		  	<h2>Column 1</h2>
+
+		<div class="row" data-aos="fade-up">
+			
+			 <div class="column">
+			 
+			 <div class="mob">
+				<video id="video6" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/mob.mp4" type="video/mp4">
+				</video>
+
+				<div class="caption">
+					<h2>MOB</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Social Media</p>
+				</div>
+				<div class="tag">
+					<a href="https://www.mobagency.pt/" target="_blank"><p>Production: MOB Agency</p></a>
+				</div>			 
+			</div>
  		 </div>
- 		 <div class="column" style="background-color:#bbb;">
-   			 <h2>Column 2</h2>
+ 		 
+			
+ 		 <div class="column">
+			 
+			 <div class="vontade">
+				<video id="video4" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/mavontade.mp4" type="video/mp4">
+				</video>
+
+				<div class="caption">
+					<h2>Má Vontade</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Social Media</p>
+				</div>
+				<div class="tag">
+					<a href="https://www.mobagency.pt/" target="_blank"><p>Production: MOB Agency</p></a>
+				</div>			 
+			</div>
  		 </div>
 	</div>	
+		
+	
 		<div class="row" data-aos="fade-up">
- 		 <div class="column" style="background-color:#aaa;">
-  		  	<h2>Column 1</h2>
+			
+			 <div class="column">
+			 
+			 <div class="arc">
+				 <video id="video3" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/arc.mp4" type="video/mp4">
+				</video>
+
+				  <div class="plyr__video-embed" id="video3-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/495047641?badge=0loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+
+				<div class="caption">
+					<h2>Arc Business Retreats</h2>
+				</div>
+				 
+			</div>
+			 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Concept Video</p>
+				</div>
+				 <div class="tag">
+					<a href="https://www.mobagency.pt/" target="_blank"><p>Production: MOB Agency</p></a>
+				</div> 
+			 
+			</div>	 
  		 </div>
- 		 <div class="column" style="background-color:#bbb;">
-   			 <h2>Column 2</h2>
+ 		 
+			 <div class="column">
+			 
+			 <div class="2023">
+				 <video id="video5" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/2023 in film.mp4" type="video/mp4">
+				</video>
+
+				  <div class="plyr__video-embed" id="video5-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+
+				<div class="caption">
+					<h2>2023 in film: something i'm made for</h2>
+				</div>
+				 
+			</div>
+			 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Personal Work</p>
+				</div>
+			</div>	 
+ 		 </div>
+			
+	</div>	
+		
+		
+		<div class="row" data-aos="fade-up">
+			
+			  <div class="column">
+			 
+			 <div class="kasa">
+				<video id="video8" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/kasa.mp4" type="video/mp4">
+				</video>
+
+				 <div class="plyr__video-embed" id="video8-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+				<div class="caption">
+					<h2>KASA Spring/Summer 2023</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<a href="https://weareballa.com/" target="_blank"><p>Production: Balla – The Creative Studio</p></a>
+				</div>	
+				 <div class="tag">
+					<a href="https://sa365.ag/pt" target="_blank"><p>Agency: SA365</p></a>
+				</div>				 
+			</div>
+ 		 </div>
+ 		 
+			 <div class="column">
+			 
+			 <div class="super">
+				 <video id="video7" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/superbock.mp4" type="video/mp4">
+				</video>
+
+				  <div class="plyr__video-embed" id="video7-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+
+				<div class="caption">
+					<h2>Super Bock Christmas Campaign</h2>
+				</div>
+				 
+			</div>
+			 
+			 <div class="tag-container">
+				<div class="tag">
+					<a href="https://weareballa.com/" target="_blank"><p>Production: Balla – The Creative Studio</p></a>
+				</div>	
+				 <div class="tag">
+					<a href="https://www.bastarda.pt/" target="_blank"><p>Agency: Bastarda</p></a>
+				</div>	
+			</div>	 
+ 		 </div>
+		
+	</div>	
+		
+		
+		<div class="row" data-aos="fade-up">
+ 		 
+ 		 <div class="column">
+			 
+			 <div class="2022">
+				<video id="video9" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/2022 in film.mp4" type="video/mp4">
+				</video>
+
+				 <div class="plyr__video-embed" id="video9-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+				<div class="caption">
+					<h2>2022 in film: last dance</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Personal Work</p>
+				</div>			 
+			</div>
+ 		 </div>
+			
+			<div class="column">
+			 
+			 <div class="dance">
+				<video id="video10" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/dance on film.mp4" type="video/mp4">
+				</video>
+
+				 <div class="plyr__video-embed" id="video10-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+				<div class="caption">
+					<h2>dance on film</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Personal Work</p>
+				</div>			 
+			</div>
  		 </div>
 	</div>	
+		
+		
 		<div class="row" data-aos="fade-up">
- 		 <div class="column" style="background-color:#aaa;">
-  		  	<h2>Column 1</h2>
+ 		 
+ 		 <div class="column">
+			 
+			 <div class="age">
+				<video id="video11" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/coming of age.mp4" type="video/mp4">
+				</video>
+
+				 <div class="plyr__video-embed" id="video11-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+				<div class="caption">
+					<h2>coming of age: a supercut of us</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Personal Work</p>
+				</div>			 
+			</div>
  		 </div>
- 		 <div class="column" style="background-color:#bbb;">
-   			 <h2>Column 2</h2>
- 		 </div>
-	</div>	
-		<div class="row" data-aos="fade-up">
- 		 <div class="column" style="background-color:#aaa;">
-  		  	<h2>Column 1</h2>
- 		 </div>
- 		 <div class="column" style="background-color:#bbb;">
-   			 <h2>Column 2</h2>
+			
+			<div class="column">
+			 
+			 <div class="lgbt">
+				<video id="video12" preload="" autoplay="" muted="" playsinline="" loop="" src="videos/lgbt cinema.mp4" type="video/mp4">
+				</video>
+
+				 <div class="plyr__video-embed" id="video12-real" style="display: none; object-fit: contain">
+					<iframe src="https://player.vimeo.com/video/76979871?loop=false&amp;byline=false&amp;portrait=false&amp;title=false&amp;transparent=0&amp;gesture=media&amp;pip=false&amp;fullscreen=false&amp;vimeo_logo=false&amp;transcript=false&amp;cc=false&amp;speed=false"></iframe>
+				</div>
+				<div class="caption">
+					<h2>lgbt cinema</h2>
+				</div>
+			</div>	 
+				 
+			 <div class="tag-container">
+				 <div class="tag">
+					<p>Personal Work</p>
+				</div>			 
+			</div>
  		 </div>
 	</div>	
 	
 	
 	</section>
+	
+	
+	<div class="overlay">
+	
+			<p id="close">close</p>
+		 <div class="row-overlay">
+			 <div class="column-overlay">
+		        <video id="mob1" controls preload="" playsinline="" loop="" src="videos/LINKEDIN.mp4" type="video/mp4">
+				</video>
+			 </div>
+			 <div class="column-overlay">
+		         <video id="mob2" controls preload="" playsinline="" loop="" src="videos/IGNORANCE.mp4" type="video/mp4">
+				</video>
+			</div>
+			 <div class="column-overlay">
+		         <video id="mob3" controls preload="" playsinline="" loop="" src="videos/ART.mp4" type="video/mp4">
+				</video>
+			</div>
+	    </div>
+		
+	</div>
+	
+	<div class="overlay2">
+	
+			<p id="close2">close</p>
+		 <div class="row-overlay">
+			 <div class="column-overlay">
+		        <video id="vontade1" controls preload="" playsinline="" loop="" src="videos/MA VONTADE.mp4" type="video/mp4">
+				</video>
+			 </div>
+			 <div class="column-overlay">
+		         <video id="vontade2" controls preload="" playsinline="" loop="" src="videos/MENU.mp4" type="video/mp4">
+				</video>
+			</div>
+			 <div class="column-overlay">
+		         <video id="vontade3" controls preload="" playsinline="" loop="" src="videos/PUDIM.mp4" type="video/mp4">
+				</video>
+			</div>
+	    </div>
+		
+	</div>
 	
 	<footer>
 		<p>2025 © Rita Faria</p>
@@ -117,6 +392,9 @@
 		</script>
 	
 	<script src="https://www.youtube.com/iframe_api"></script>
+	
+	<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
 	
 </body>
 </html>
