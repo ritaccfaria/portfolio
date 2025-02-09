@@ -62,28 +62,15 @@ video::-webkit-media-controls-picture-in-picture-button {
 
 
 
-/*
-body {
-	background-image: url("bg.png");
-	background-repeat: repeat-y;
-    background-attachment: fixed;
-    background-size: cover;
-}*/
-
-/*nav {
-	position: fixed;
-	top: 2%;
-    right: 1.5%;
-	z-index: 1;
-}*/
 
 body {
 	background-color: white;
+	
 }
 
 .circle {
 	position: absolute;
-	z-index: 99;
+	z-index: 98;
 	mix-blend-mode: difference;
 	pointer-events: none;
 	height: 20px;
@@ -94,6 +81,60 @@ body {
 .circle-hover {
 	transform: scale(3);
 	transition: transform 0.3s;
+}
+
+.magic {
+  z-index: 99;
+  pointer-events: none;	
+  position: absolute;
+  width: 0.1rem;
+  height: 0.1rem;
+  background: url('images/me.jpg') no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  transition: transform 0.3s;	
+}
+
+.me {
+	display: block;
+	transform: scale(220);
+	transition: transform 0.3s;
+}
+
+.circle2 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: rgba(255,255,255,0);
+  border-radius: 50%;
+  display: flex;
+  z-index: 1;
+}
+
+.star {
+    width: 75%;
+    height: 75%;
+	margin: auto;
+}
+	
+#draggable1 {
+	margin-left: 53vw;
+	margin-top:  34vh;
+}
+
+#draggable2 {
+	margin-left: 64vw;
+	margin-top:  17vh;
+}
+
+#draggable3 {
+	margin-left: 73vw;
+	margin-top:  28vh;
+}
+
+#draggable4 {
+	margin-left: 88vw;
+	margin-top:  12vh;
 }
 
 nav a {
@@ -133,6 +174,18 @@ header {
 	font-weight: 500;
 	font-size: 2.6vw;
 	padding-top: 12%;
+}
+
+header p {
+	cursor: default;
+}
+
+.stars {
+	position: absolute;
+    width: 36vw;
+    left: 56vw;
+    top: 10%;
+    rotate: 12deg;
 }
 
 section {
@@ -226,7 +279,7 @@ section {
 	width: 100%;
 }
 
-.overlay, .overlay2 {
+.overlay {
   position: fixed;
 	overflow: scroll;
   width: 100%; 
@@ -235,7 +288,7 @@ section {
   transform: translateY(100%);
   transition: transform 0.3s ease;
   background-color: white; 
-  z-index: 98; 
+  z-index: 99; 
 }
 
 .overlay-clicked {
@@ -245,7 +298,7 @@ section {
 
 .row-overlay {
   display: flex;
-  padding: 0% 10% 0.5%;
+  padding: 4% 10% 0.5%;
   column-gap: 0.5%;
 }
 
@@ -264,7 +317,9 @@ section {
   object-fit: cover;
 }
 
-.overlay p, .overlay2 p {
+.overlay p {
+	position: fixed;
+	z-index: 2;
 	width: max-content;
 	color: white;
 	mix-blend-mode: difference;
@@ -276,12 +331,13 @@ section {
 	padding-top: 2vh;
 }
 
-.overlay p:hover, .overlay2 p:hover  {
+.overlay p:hover  {
 	text-decoration: underline;
 	cursor: pointer;
 }
 
 footer {
+	cursor: default;
 	font-family: "Archivo", serif;
     font-weight: 300;
 	font-size: 0.9vw;
@@ -291,17 +347,36 @@ footer {
 }
 
 
+.plyr {
+	--plyr-color-main: #FF7518;
+	font-family: "Archivo", serif !important;
+	height: 100vh;
+	pointer-events: all !important;
+
+}
+
 
 
 @media only screen and (max-width: 768px) {
 	
+		.circle, .magic {
+			display: none;
+		}
+	
+		.stars {
+			top: 27%;
+			left: 48vw;
+			width: 46vw;
+			rotate: 229deg;
+		}
+	
 		header {
 		   font-size: 4.6vw;
-		   padding-top: 20%;
+		   padding-top: 30%;
 		}
 	
 	    section {
-			padding-top: 40%;
+			padding-top: 50%;
 		}
 	
 		nav a {
@@ -356,8 +431,7 @@ footer {
 	
 		.row-overlay {
 		  display: block;
-		  padding-bottom: 0;
-		  margin-top: 7%;
+		  padding-bottom: 7%;
 		  margin-bottom: 7%;
 		}	
 	
@@ -365,6 +439,20 @@ footer {
 			margin-bottom: 1%;
 		}
 	
+		.plyr--video {
+			height: auto !important;
+		}
+	
+		.plyr {
+			margin-top: 16% !important;
+			margin-left: 3% !important;
+			margin-right: 3% !important;
+			width: 94% !important;
+		}
+	
+	    #draggable1, #draggable2, #draggable3, #draggable4, .leader-line {
+			display: none;
+		}
 		
 }
 
